@@ -1,0 +1,16 @@
+
+        <h1 class="text-xl font-bold truncate text-red-300">{{ shop.name }}</h1>
+
+ {% schema %}
+    {
+      "name": "Header",
+      "settings": [
+        {
+        "type": "link_list",
+        "id": "menu",
+        "default": "main-menu",
+        "label": "t:sections.header.settings.menu.label"
+        }
+      ]
+}
+  {% endschema %}
